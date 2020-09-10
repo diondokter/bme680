@@ -16,6 +16,8 @@ maintenance = { status = "passively-maintained" }
 bitflags = "1.2"
 embedded-hal = "0.2"
 log = "0.4"
+device-driver = { git = "https://github.com/diondokter/device-driver", branch = "develop" }
+num_enum = { version = "0.5.1", default-features = false }
 
 [dev-dependencies]
 env_logger = "0.7"
